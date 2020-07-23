@@ -1,0 +1,113 @@
+@media only screen and (min-width: 32.5em) {
+
+    header img {
+        width: 130px;
+    }
+
+    .m {
+        display: block;
+        font-style: italic;
+        color: black;
+        font-family: 'Pacifico', cursive;
+        font-size: small;
+        text-transform: lowercase;
+    }
+
+    .s {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .active {
+        font-family: 'Pacifico', cursive;
+    }
+
+    /* WORDS */
+    h2 {
+        font-size: x-large;
+    }
+
+    .forecast {
+        display: block;
+        width: 500px;
+    }
+
+    .prices {
+        width: 800px;
+    }
+
+    table {
+        font-size: medium;
+    }
+
+    table th {
+        font-size: medium;
+    }
+
+    table td {
+        padding: 1.35em;
+        font-size: medium;
+    }
+
+    table td:first-child {
+        font-size: medium;
+    }
+
+
+    .page p {
+        line-height: 150%;
+    }
+
+    .contact {
+        text-align: left;
+    }
+
+    .info p {
+        font-size: large;
+    }
+
+    .social {
+        max-width: 50px;
+    }
+
+    /* new styles SCOOTS */
+
+    .signature {
+        display: none;
+    }
+
+    .signature1 {
+        font-family: 'Pacifico', cursive;
+        bottom: 95px;
+        left: 50px;
+        transform: rotate(-20deg);
+        letter-spacing: 2px;
+        font-size: medium;
+        border-radius: 50%;
+        padding: 1.4rem;
+    }
+
+    .info img {
+        width: 45%;
+    }
+
+    .info p {
+        font-size: medium;
+    }
+}

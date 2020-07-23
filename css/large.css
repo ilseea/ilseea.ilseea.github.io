@@ -1,0 +1,129 @@
+@media only screen and (min-width: 52.2em) {
+
+    .contactus {
+        transform: rotate(-25deg);
+    }
+
+    .m {
+        font-size: medium;
+    }
+
+    .forecast {
+        width: 700px;
+    }
+
+    .prices {
+        width: 1000px;
+    }
+
+
+    table {
+        font-size: large;
+    }
+
+    table td {
+        padding: 2.1em;
+        font-size: large;
+    }
+
+    table th {
+        font-size: large;
+    }
+
+    table td:first-child {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: xx-large;
+        margin: 5px 0 30px 0;
+    }
+
+    h3 {
+        font-size: xx-large;
+    }
+
+    .news img {
+        float: right;
+        margin-left: 1.3rem;
+        width: 40%;
+    }
+
+    h4 {
+        line-height: 200%;
+    }
+
+    .page p {
+        margin-top: 20px;
+    }
+
+
+    .page li {
+        margin-top: 20px;
+        background-color: transparent;
+        color: white;
+        letter-spacing: 1px;
+        font-family: 'Libre Baskerville', serif;
+        font-size: large;
+    }
+
+    .info {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .info img {
+        width: 60%;
+    }
+
+    .contact {
+        margin: 0 -20px 0 10px;
+    }
+
+    .social {
+        max-width: 50px;
+    }
+
+    /* new styles for SCOOTS */
+
+    #credit {
+        text-align: center;
+    }
+
+    .signature br {
+        display: block;
+    }
+
+    .signature em {
+        font-size: small;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .signature {
+        display: block;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+
+        top: 30px;
+        left: 55px;
+        color: black;
+        letter-spacing: 1px;
+        font-size: xx-large;
+        background-color: #f7B733;
+        transform: rotate(-15deg);
+
+        padding: 3rem;
+        opacity: 2;
+        text-align: center;
+        border-radius: 80%;
+        cursor: pointer;
+        box-shadow: 10px 10px 30px rgb(255, 255, 255);
+
+    }
+
+    .signature1 {
+        display: none;
+    }
+
+
+}

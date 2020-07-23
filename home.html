@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Home | Scoots</title>
+    <meta name="description"
+        content="Scoots. The only scooter, atv, and jeep rentals in Cozumel ...that can take you on a paradise drive beyond your sunniest dreams. Somos el unico lugar en donde rentar ciclomotores, vehiculos de todo terreno, o jeeps en todo Cozumel ...que en realidad te llevaran al paraiso de tus suenos.">
+
+    <link rel="icon" href="images/faviscoot.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <a href="#"><img src="images/logoblack.png" alt="bird logo"></a>
+
+        <div class="headings">
+
+            <div class="m"> Las Aguilas de La Calle.
+                The Eagles of the Road.
+            </div>
+
+            <div class="s"> Las Aguilas de La Calle.
+            </div>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+
+        <ul class="navigation">
+            <li><a class="ham" href="#"> &#9776; Menu </a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/lessonfinal/rentals.html">Rentals</a></li>
+            <li><a href="/lessonfinal/reservations.html">Reservations</a></li>
+            <li><a href="/lessonfinal/tours.html">Tours</a></li>
+            <li><a href="/lessonfinal/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <a href="/lessonfinal/reservations.html">
+                <h1 class="signature"> Reserve your... <br>adventure today!
+                    <br><em>...click here!</em>
+                </h1>
+                <h1 class="signature1"> Click here to <br>reserve today! </h1>
+            </a>
+
+
+            <img src="/lessonfinal/images/mural.jpg" alt="scooter next to a mural on the sand." />
+
+
+        </div>
+
+
+        <section class="clima">
+            <h2>Did we mention the weather is perfect for a drive?</h2>
+            <p>Current: <span id="weather-desc"></span>
+                Temperature: <span id="current-temp"></span> &deg;F
+                Humidity: <span id="humidity"></span> %</p>
+        </section>
+
+        <div class="container">
+            <h3>Ready to explore the beauty of Cozumel, Mexico?</h3>
+            <div class="page">
+                <a href="/lessonfinal/reservations.html">
+                    <h4>Scooters</h4>
+                </a>
+                <div class="news">
+                    <a href="/lessonfinal/rentals.html"><img src="/lessonfinal/images/scooterpic.jpg"
+                            alt="Scooter overlooking sea."></a>
+                    <h5>Going solo? Or need a spot for your BFF? </h5>
+                    <ul>
+                        <li>Cruise effortlessly.</li>
+                        <li>Low-footprint friendly!</li>
+                        <li>Save $$$ for sight-seeing.</li>
+                        <li>Choose from 1 or 2 seaters.</li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="page">
+                <a href="/lessonfinal/reservations.html">
+                    <h4>ATVs</h4>
+                </a>
+                <div class="news">
+                    <a href="/lessonfinal/rentals.html"><img src="/lessonfinal/images/atvpicture.jpg"
+                            alt="ATV on dunes."></a>
+                    <h5>We understand. Puppers needs wind blowing through his hair.</h5>
+                    <ul>
+                        <li>Terrain crusher.</li>
+                        <li>Adventure-vacation.</li>
+                        <li>These bad boys seat 4!</li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="page">
+                <a href="/lessonfinal/reservations.html">
+                    <h4>Jeeps</h4>
+                </a>
+                <div class="news">
+                    <a href="/lessonfinal/rentals.html"><img src="/lessonfinal/images/jeeppicture.jpg"
+                            alt="Jeep with surfers."></a>
+                    <h5>Need space for all your extra surfboards, and cousins?</h5>
+                    <ul>
+                        <li>Rugged... but pretty.</li>
+                        <li>5 seater. (Okay, party animal.)</li>
+                        <li>We get it, A/C is life.</li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="forecast">
+            <h2> Check out the rest of the week!</h2>
+            <table>
+                <tr>
+                    <th><span id="dayofweek1"></span></th>
+                    <th><span id="dayofweek2"></span></th>
+                    <th><span id="dayofweek3"></span></th>
+                    <th><span id="dayofweek4"></span></th>
+                    <th><span id="dayofweek5"></span></th>
+                </tr>
+                <tr>
+
+                    <td><img src="" alt="" id="icon1"> <br> <span id="forecast1"></span>&deg;F </td>
+                    <td><img src="" alt="" id="icon2"> <br><span id="forecast2"></span>&deg;F </td>
+                    <td><img src="" alt="" id="icon3"> <br><span id="forecast3"></span>&deg;F</td>
+                    <td><img src="" alt="" id="icon4"><br><span id="forecast4"></span>&deg;F</td>
+                    <td><img src="" alt="" id="icon5"><br><span id="forecast5"></span>&deg;F</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container">
+            <div class="page">
+                <a href="/lessonfinal/tours.html">
+                    <h4>Tours</h4>
+                </a>
+                <div class="news">
+                    <a href="/lessonfinal/tours.html"><img src="/lessonfinal/images/tourpic.jpg"
+                            alt="Boat tours off coast."></a>
+                    <h5>Did someone ask for Selfie Hotspots?</h5>
+                </div>
+                <em id=credit>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Scoots" on over to these hot destinations!</em>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p> &copy;
+            <span id="currentYr"> </span> Scoots | Attributions
+            | <a href="https://ilseea.github.io/">Ilse Amezquita</a> </p>
+        <span id="dailydate"></span>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/cozumelapi.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
